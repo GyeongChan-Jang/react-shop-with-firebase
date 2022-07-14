@@ -10,7 +10,8 @@
     "fb:logout": "firebase logout",
     "fb:init": "firebase init",
     "fb:emuls": "firebase emulators:start",
-    "fb:deploy": "firebase deploy"
+    "fb:deploy": "firebase deploy",
+    "kill": "npx kill-port 5001 5002 8080 8085 9000 9199"
   },
   "dependencies": {
     "axios": "^0.27.2",
